@@ -412,7 +412,7 @@ void insert_node_into_binary_tree(tree_node **Pointer_to_Root, int Value_to_Inse
 
   - **`Value_to_Insert`:** The value for the new node to be inserted. 
 
-  1. **Step 1: Variable Devlarations:**
+  1. **Step 1: Variable Declarations:**
 
 ```c
 tree_node *Nodes_To_Visit[100];
