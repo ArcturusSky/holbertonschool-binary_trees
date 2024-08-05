@@ -7,11 +7,11 @@
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
-	binary_tree_t *is_leaf = node;
+	/** const binary_tree_t *is_leaf = node; */
 
-	if (is_leaf != NULL)
+	if (node != NULL)
 	{
-		if (is_leaf->left != NULL && is_leaf->right != NULL)
+		if (node->left == NULL && node->right == NULL)
 		{
 			return (1);
 		}
