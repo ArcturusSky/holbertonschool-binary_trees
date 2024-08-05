@@ -28,6 +28,10 @@
 *.so.*
 *.dylib
 
+# Emacs buffer files
+*~
+*#
+
 # Executables
 *.exe
 *.out
@@ -35,6 +39,14 @@
 *.i*86
 *.x86_64
 *.hex
+
+# main files
+*-main.c
+
+# test files
+test-*
+*-test
+test_*
 
 # Debug files
 *.dSYM/
