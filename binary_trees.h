@@ -39,7 +39,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 	/** Function that insert a node as the left-childe or another node */
 
 void binary_tree_delete(binary_tree_t *tree);
-
+	/** Function that delete a binary tree */
 
 int binary_tree_is_leaf(const binary_tree_t *node);
 	/** Function that check if node is a leaf */
