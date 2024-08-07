@@ -12,11 +12,15 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *LeftChild;
 
+	/** Check if parent is NULL */
+	if (parent == NULL)
+		return (NULL);
+
 	/** Create a new node with the given value and set its parent */
 	LeftChild = binary_tree_node(parent, value);
 
-	/** Check if either the parent or new node is NULL; return NULL if true */
-	if (parent == NULL || LeftChild == NULL)
+	/** Check  new node is NULL; return NULL if true */
+	if (LeftChild == NULL)
 	{
 		return (NULL);
 	}
