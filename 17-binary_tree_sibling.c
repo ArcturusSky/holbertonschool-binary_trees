@@ -3,7 +3,6 @@
 /**
  * binary_tree_sibling - function that finds
  * the sibling of a node in a binary tree
- * using "in-order" traversal.
  * @node: pointer to tree root
  *
  * Return: a pointer to the sibling, NULL otherwise
