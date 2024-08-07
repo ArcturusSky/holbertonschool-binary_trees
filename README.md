@@ -1,6 +1,6 @@
 # Binary Trees
 
-This repository is part of the `low-programming` parent repository focused on C programming.
+This `README.md` will contain the necessary files for the `binary_trees` project. This is a group project, and we will be working in pairs. Our team consists of Anne-Cécile Besse (Arc) and José Puertas. 
 
 ## Summary
 
